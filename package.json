@@ -1,0 +1,31 @@
+{
+  "name": "software-architecture-handbook",
+  "version": "1.0.0",
+  "description": "Comprehensive reference handbook for Software Architecture, SOLID Principles, Design Patterns, Enterprise Paradigms, and Real-World Case Studies.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "software-architecture",
+    "design-patterns",
+    "solid-principles",
+    "oops",
+    "microservices",
+    "monolith",
+    "modular-monolith",
+    "monorepo",
+    "cqrs",
+    "event-driven-architecture",
+    "clean-architecture",
+    "hexagonal-architecture"
+  ],
+  "author": "Ankit Amar Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  }
+}
