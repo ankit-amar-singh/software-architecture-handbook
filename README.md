@@ -14,48 +14,48 @@
 
 ```mermaid
 graph TD
-    Root[Software Architecture Handbook] --> Module1[01. Fundamental Principles]
-    Root --> Module2[02. Design Patterns Suite]
-    Root --> Module3[03. Enterprise Paradigms]
-    Root --> Module4[04. Distributed Resilience]
-    Root --> Module5[05. Real-World Case Studies]
-    Root --> Module6[06. Decision Frameworks]
+    Root["Software Architecture Handbook"] --> Module1["01. Fundamental Principles"]
+    Root --> Module2["02. Design Patterns Suite"]
+    Root --> Module3["03. Enterprise Paradigms"]
+    Root --> Module4["04. Distributed Resilience"]
+    Root --> Module5["05. Real-World Case Studies"]
+    Root --> Module6["06. Decision Frameworks"]
 
     subgraph "01. Fundamentals"
-        Module1 --> OOP[OOPS Principles]
-        Module1 --> SOLID[S.O.L.I.D. Principles]
-        Module1 --> DRY[DRY / KISS / YAGNI]
-        Module1 --> Comp[Composition vs Inheritance]
-        Module1 --> LoD[Law of Demeter]
+        Module1 --> OOP["OOPS Principles"]
+        Module1 --> SOLID["S.O.L.I.D. Principles"]
+        Module1 --> DRY["DRY / KISS / YAGNI"]
+        Module1 --> Comp["Composition vs Inheritance"]
+        Module1 --> LoD["Law of Demeter"]
     end
 
     subgraph "02. Design Patterns"
-        Module2 --> Creational[Creational (Singleton, Factory, Builder, etc.)]
-        Module2 --> Structural[Structural (Adapter, Decorator, Facade, Proxy, etc.)]
-        Module2 --> Behavioral[Behavioral (Observer, Strategy, Command, State, etc.)]
+        Module2 --> Creational["Creational (Singleton, Factory, Builder, etc.)"]
+        Module2 --> Structural["Structural (Adapter, Decorator, Facade, Proxy, etc.)"]
+        Module2 --> Behavioral["Behavioral (Observer, Strategy, Command, State, etc.)"]
     end
 
     subgraph "03. Architecture Paradigms"
-        Module3 --> Mono[Monolith & Modular Monolith]
-        Module3 --> Micro[Microservices Architecture]
-        Module3 --> MonoRepo[Monorepo Architecture]
-        Module3 --> EDA[Event-Driven & CQRS]
-        Module3 --> Clean[Hexagonal & Clean Architecture]
-        Module3 --> MFE[Microfrontends]
+        Module3 --> Mono["Monolith & Modular Monolith"]
+        Module3 --> Micro["Microservices Architecture"]
+        Module3 --> MonoRepo["Monorepo Architecture"]
+        Module3 --> EDA["Event-Driven & CQRS"]
+        Module3 --> Clean["Hexagonal & Clean Architecture"]
+        Module3 --> MFE["Microfrontends"]
     end
 
     subgraph "04. Distributed Resilience"
-        Module4 --> Saga[Saga Pattern (Orchestration/Choreography)]
-        Module4 --> Outbox[Transactional Outbox Pattern]
-        Module4 --> CB[Circuit Breaker & Rate Limiter]
-        Module4 --> Gateway[API Gateway & BFF]
+        Module4 --> Saga["Saga Pattern (Orchestration/Choreography)"]
+        Module4 --> Outbox["Transactional Outbox Pattern"]
+        Module4 --> CB["Circuit Breaker & Rate Limiter"]
+        Module4 --> Gateway["API Gateway & BFF"]
     end
 
     subgraph "05. Industry Case Studies"
-        Module5 --> Shopify[Shopify Modular Monolith]
-        Module5 --> Netflix[Netflix Microservices Engine]
-        Module5 --> Uber[Uber DOMA Architecture]
-        Module5 --> Prime[Amazon Prime Video Monolith Shift]
+        Module5 --> Shopify["Shopify Modular Monolith"]
+        Module5 --> Netflix["Netflix Microservices Engine"]
+        Module5 --> Uber["Uber DOMA Architecture"]
+        Module5 --> Prime["Amazon Prime Video Monolith Shift"]
     end
 ```
 
